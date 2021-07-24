@@ -45,3 +45,15 @@ body {
     color: blue;
     text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+    .nav-bar ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .logo {
+        width: 15vw;
+        height: 10vh;
+    }
+}
