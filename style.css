@@ -46,11 +46,21 @@ body {
     text-decoration: none;
 }
 
+.nav-bar .fas {
+    margin-left: 6px;
+    color: lightblue;
+}
+
+.nav-bar .fas:hover {
+    color: white;
+}
+
 @media screen and (max-width: 600px) {
     .nav-bar ul {
         display: flex;
         flex-direction: column;
         margin-top: 0px;
+        margin-left: 50px;
     }
     .logo {
         width: 15vw;
