@@ -79,6 +79,36 @@
         margin-left: 120px;
     }
     
+    .sub-menu0 {
+        display: none;
+    }
+    
+    .nav-bar ul li:hover .sub-menu0 {
+        display: block;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.815);
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    
+    .nav-bar ul li:hover .sub-menu0 ul {
+        display: block;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .sub-menu00 {
+        display: none;
+    }
+    
+    .FP:hover .sub-menu00 {
+        display: block;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.815);
+        margin-top: -10px;
+        margin-left: 120px;
+    }
+    
     @media screen and (max-width: 600px) {
         .nav-bar ul {
             display: flex;
